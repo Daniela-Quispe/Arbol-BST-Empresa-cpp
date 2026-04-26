@@ -212,24 +212,24 @@ Se incluyen capturas del funcionamiento del programa:
 
 <img width="553" height="306" alt="Raiz" src="https://github.com/user-attachments/assets/705f2d33-e0b4-49d2-b50f-e53d4ddbba85" />
 
-## 6. Recorridos:
+## 5. Recorridos:
 
 <img width="679" height="880" alt="Recorridos" src="https://github.com/user-attachments/assets/8cdfd58c-dbe5-46b5-bdfe-63f7c308d1f0" />
 
 <img width="676" height="428" alt="Recorridos  " src="https://github.com/user-attachments/assets/a79e7605-569b-4684-b4de-0c09217b9503" />
 
 
-## 5. Altura del árbol:
+## 6. Altura del árbol:
 
 <img width="676" height="295" alt="Altura" src="https://github.com/user-attachments/assets/908c2650-80eb-44d4-8226-98a3442c3506" />
 
 
-## 6. Nodos hoja:
+## 7. Nodos hoja:
 
 <img width="526" height="376" alt="Hojas" src="https://github.com/user-attachments/assets/f59efee6-ee26-4a06-b0b9-c2fc1d7cca24" />
 
 
-## 7. Nivel de un nodo y salida:
+## 8. Nivel de un nodo y salida:
 
 <img width="526" height="599" alt="Nivel de un empleado" src="https://github.com/user-attachments/assets/998261b5-ba3c-4ae2-9ed6-c32259b7f0dd" />
 
