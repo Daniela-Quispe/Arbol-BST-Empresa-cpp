@@ -106,7 +106,7 @@ Cada nodo tiene:
 * datos del empleado
 * puntero izquierdo
 * puntero derecho
-</pre>
+<pre>
 struct Nodo {
 
 Empleado dato;
@@ -117,7 +117,7 @@ Nodo* derecho;
 ### 2. Inserción de empleados:
 
 La inserción se hace comparando el código:
-</pre>
+<pre>
 if (emp.codigo < nodo->dato.codigo) {
 nodo->izquierdo = insertar(nodo->izquierdo, emp);
 } 
@@ -129,7 +129,7 @@ menor → izquierda
 mayor → derecha
 
 ### 3. Búsqueda de empleados:
-</pre>
+<pre>
 if (nodo == nullptr || nodo->dato.codigo == codigo) {
 return nodo;
 }
@@ -142,7 +142,7 @@ return buscar(nodo->derecho, codigo);
 El árbol reduce el número de comparaciones en cada paso.
 
 ### 4. Recorrido Inorden:
-</pre>
+<pre>
 inorden(nodo->izquierdo);
 mostrarEmpleado(nodo);
 inorden(nodo->derecho);
@@ -150,7 +150,7 @@ inorden(nodo->derecho);
 Resultado: orden ascendente por código.
 
 ### 5. Recorrido Preorden:
-</pre>
+<pre>
 mostrarEmpleado(nodo);
 preorden(nodo->izquierdo);
 preorden(nodo->derecho);
@@ -158,7 +158,7 @@ preorden(nodo->derecho);
 Resultado: Primero la raíz, luego los hijos.
 
 ### 6. Recorrido Postorden:
-</pre>
+<pre>
 postorden(nodo->izquierdo);
 postorden(nodo->derecho);
 mostrarEmpleado(nodo);
@@ -166,7 +166,7 @@ mostrarEmpleado(nodo);
 Resultado: Primero hijos, al final la raíz.
 
 ### 7. Altura del árbol:
-</pre>
+<pre>
 int alturaIzq = altura(nodo->izquierdo);
 int alturaDer = altura(nodo->derecho);
 return 1 + max(alturaIzq, alturaDer);
@@ -174,7 +174,7 @@ return 1 + max(alturaIzq, alturaDer);
 Resultado: Calcula el nivel más profundo del árbol.
 
 ### 8. Nodos hoja:
-</pre>
+<pre>
 if (nodo->izquierdo == nullptr \&\& nodo->derecho == nullptr) {
 mostrarEmpleado(nodo);
 }
