@@ -185,12 +185,12 @@ Resultado: Son los nodos sin hijos.
 
 Se incluyen capturas del funcionamiento del programa:
 
-1. Menú principal:
+## 1. Menú principal:
 
 <img width="580" height="283" alt="Menu principal" src="https://github.com/user-attachments/assets/ba31b58c-85b4-4940-9828-0144c18416a4" />
 
 
-2. Inserción de empleados:
+## 2. Inserción de empleados:
 
 <img width="580" height="1005" alt="Insercion de empleados " src="https://github.com/user-attachments/assets/091e1f2a-e03e-42fd-8cd5-14059376edcf" />
 
@@ -199,7 +199,7 @@ Se incluyen capturas del funcionamiento del programa:
 <img width="642" height="310" alt="Insercion de empleados   " src="https://github.com/user-attachments/assets/c45f5786-2595-491c-83eb-13faf58005ee" />
 
 
-3. Búsqueda:
+## 3. Búsqueda:
 
 <img width="642" height="672" alt="Busqueda" src="https://github.com/user-attachments/assets/72277a2b-62cc-4f69-8ee6-a959d4a59c01" />
 
@@ -208,28 +208,28 @@ Se incluyen capturas del funcionamiento del programa:
 <img width="553" height="670" alt="Busqueda   " src="https://github.com/user-attachments/assets/d42c0ff0-b51f-4c0d-a547-0ed5b95bceef" />
 
 
-4. Raiz:
+## 4. Raiz:
 
 <img width="553" height="306" alt="Raiz" src="https://github.com/user-attachments/assets/705f2d33-e0b4-49d2-b50f-e53d4ddbba85" />
 
-6. Recorridos:
+## 6. Recorridos:
 
 <img width="679" height="880" alt="Recorridos" src="https://github.com/user-attachments/assets/8cdfd58c-dbe5-46b5-bdfe-63f7c308d1f0" />
 
 <img width="676" height="428" alt="Recorridos  " src="https://github.com/user-attachments/assets/a79e7605-569b-4684-b4de-0c09217b9503" />
 
 
-5. Altura del árbol:
+## 5. Altura del árbol:
 
 <img width="676" height="295" alt="Altura" src="https://github.com/user-attachments/assets/908c2650-80eb-44d4-8226-98a3442c3506" />
 
 
-6. Nodos hoja:
+## 6. Nodos hoja:
 
 <img width="526" height="376" alt="Hojas" src="https://github.com/user-attachments/assets/f59efee6-ee26-4a06-b0b9-c2fc1d7cca24" />
 
 
-7. Nivel de un nodo:
+## 7. Nivel de un nodo y salida:
 
 <img width="526" height="599" alt="Nivel de un empleado" src="https://github.com/user-attachments/assets/998261b5-ba3c-4ae2-9ed6-c32259b7f0dd" />
 
