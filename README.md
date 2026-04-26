@@ -48,11 +48,13 @@ Cada nodo del árbol representa un empleado con:
 
 Ejemplo con datos ingresados:
 
-     50
-    /  \
-  30    70
- / \    / \
-20 40  60 80
+<pre>
+        50
+       /  \
+     30    70
+    / \    / \
+  20  40  60  80
+</pre>
 
 ## Recorridos del árbol:
 
@@ -93,43 +95,41 @@ El programa implementa un Árbol Binario de Búsqueda (BST) en C++ usando nodos 
 ### 1. Estructura del nodo:
 
 Cada empleado se guarda en un nodo:
-
-cpp id="node-struct"
+<pre>
 struct Empleado {
-
-int codigo;
-string nombre;
-string cargo;
+    int codigo;
+    string nombre;
+    string cargo;
 };
-
+</pre>
 Cada nodo tiene:
 * datos del empleado
 * puntero izquierdo
 * puntero derecho
-
+</pre>
 struct Nodo {
 
 Empleado dato;
-Nodo\* izquierdo;
-Nodo\* derecho;
+Nodo* izquierdo;
+Nodo* derecho;
 };
-
+</pre>
 ### 2. Inserción de empleados:
 
 La inserción se hace comparando el código:
-
+</pre>
 if (emp.codigo < nodo->dato.codigo) {
 nodo->izquierdo = insertar(nodo->izquierdo, emp);
 } 
 else if (emp.codigo > nodo->dato.codigo) {
 nodo->derecho = insertar(nodo->derecho, emp);
 }
-
+</pre> 
 menor → izquierda
 mayor → derecha
 
 ### 3. Búsqueda de empleados:
-
+</pre>
 if (nodo == nullptr || nodo->dato.codigo == codigo) {
 return nodo;
 }
@@ -137,47 +137,48 @@ if (codigo < nodo->dato.codigo)
 return buscar(nodo->izquierdo, codigo);
 else
 return buscar(nodo->derecho, codigo);
-
+</pre>
+     
 El árbol reduce el número de comparaciones en cada paso.
 
 ### 4. Recorrido Inorden:
-
+</pre>
 inorden(nodo->izquierdo);
 mostrarEmpleado(nodo);
 inorden(nodo->derecho);
-
+</pre>
 Resultado: orden ascendente por código.
 
 ### 5. Recorrido Preorden:
-
+</pre>
 mostrarEmpleado(nodo);
 preorden(nodo->izquierdo);
 preorden(nodo->derecho);
-
+</pre>
 Resultado: Primero la raíz, luego los hijos.
 
 ### 6. Recorrido Postorden:
-
+</pre>
 postorden(nodo->izquierdo);
 postorden(nodo->derecho);
 mostrarEmpleado(nodo);
-
+</pre>
 Resultado: Primero hijos, al final la raíz.
 
 ### 7. Altura del árbol:
-
+</pre>
 int alturaIzq = altura(nodo->izquierdo);
 int alturaDer = altura(nodo->derecho);
 return 1 + max(alturaIzq, alturaDer);
-
+</pre>
 Resultado: Calcula el nivel más profundo del árbol.
 
 ### 8. Nodos hoja:
-
+</pre>
 if (nodo->izquierdo == nullptr \&\& nodo->derecho == nullptr) {
 mostrarEmpleado(nodo);
 }
-
+</pre>
 Resultado: Son los nodos sin hijos.
 
 ## Capturas:
